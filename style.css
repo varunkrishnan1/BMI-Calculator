@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Tektur", sans-serif;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin-top: 100px;
+    background-color: lightgray;
+    border-radius: 15px;
+    box-shadow: rgba(241, 241, 244, 0.942) 0px 7px 29px 0px;
+}
+
+#head1{
+    text-align: center;
+}
+
+#head1:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+input{
+    position: relative;
+
+    
+    top: 40px;
+    height: 30px;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
